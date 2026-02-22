@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio interaction</title>
+  <link rel="stylesheet" href="detail.css">
+</head>
+<body>
+  <div class="frame-top" aria-hidden="true"><p class="kicker">YUMI LEE - WORKS</p></div>
+  <div class="frame-left" aria-hidden="true"></div>
+  <div class="frame-right" aria-hidden="true"></div>
+
+  <main class="page">
+    <section class="panel panel--text">
+      <h1 class="project-main-title">Archive 44 Cours Charlemagne</h1>
+      <p class="data-category">Experience · Digital</p>
+      <hr class="detail-rule">
+
+      <p class="detail-meta">2025<br></p>
+
+      <p class="detail-meta detail-block">
+        Concept, Art Direction: Yumi Lee<br>
+        Web & UIUX Design: Yumi Lee<br>
+        Front-end Development & Publishing: Yumi Lee
+      </p>
+
+      <p class="detail-copy detail-block">
+       An archival web project reinterpreting the space of an artist’s home in Lyon, France as a digital environment.<br><br>
+        The project explores how a real, lived-in space can be translated into an online experience that preserves spatial memory and personal narratives.<br><br>
+        The space was reconstructed from photographic documentation through 3D modelling in Blender and developed as a navigable digital environment, proposing a new way to share and preserve memories beyond their original location.<br><br><br>
+        
+      </p>
+    </section>
+
+    <section class="panel panel--media">
+      <div class="media-block">
+        
+        <video class="media-video" src="photos/insta01.mp4" autoplay muted loop playsinline></video><br><br>
+        <video class="media-video" src="photos/archivevid02.mp4" autoplay muted loop playsinline></video><br><br>
+        <video class="media-video" src="photos/archivevid03.mp4" autoplay muted loop playsinline></video><br><br>
+        <img class="media-image" src="photos/archive05.png" alt="Portfolio interaction"><br><br>
+        <img class="media-image" src="photos/archive06.png" alt="Portfolio interaction"><br><br>
+        <img class="media-image" src="photos/archive07.png" alt="Portfolio interaction"><br><br>
+        <img class="media-image" src="photos/archive08.png" alt="Portfolio interaction"><br><br>
+      </div>
+      <button class="detail-back-button" type="button" aria-label="Back" onclick="if (window.history.length > 1) { window.history.back(); } else { window.location.href = 'main.html'; }"><img src="back-button.png" alt=""></button>
+    </section>
+  </main>
+</body>
+</html>

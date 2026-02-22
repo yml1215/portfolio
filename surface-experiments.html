@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surface experiments</title>
+  <link rel="stylesheet" href="detail.css">
+</head>
+<body>
+  <div class="frame-top" aria-hidden="true"><p class="kicker">YUMI LEE - WORKS</p></div>
+  <div class="frame-left" aria-hidden="true"></div>
+  <div class="frame-right" aria-hidden="true"></div>
+
+  <main class="page">
+    <section class="panel panel--text">
+      <h1 class="project-main-title">Material experiments</h1>
+      <p class="data-category">Textile design · Product design</p>
+      <hr class="detail-rule">
+
+      <div class="material-accordion" aria-label="Material experiments list">
+        <div class="material-item" data-media-key="bercy">
+          <button class="material-trigger" type="button" aria-expanded="false">2023 · Visual Research - Gare de Bercy</button>
+          <div class="material-panel">
+            <div class="material-panel-inner">
+
+              <p class="detail-copy detail-block">
+                A graphic research project inspired by an unexpected sense of vitality discovered at Gare de Bercy in Paris, a station often perceived as worn and austere.<br>
+                The contrast between the grey concrete architecture and the constant movement of people revealed an underlying rhythm and visual energy within the space.<br><br>
+
+                Using long-exposure photography to capture this movement, the project translates these traces of activity into a tile-based surface system.<br>
+                The proposal explores how printed tiles could reactivate the station by introducing rhythm, colour, and a renewed spatial identity.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="material-item" data-media-key="ceramic">
+          <button class="material-trigger" type="button" aria-expanded="false">2023 · Object Study - Between Flat and Three-Dimensional</button>
+          <div class="material-panel">
+            <div class="material-panel-inner">
+
+              <p class="detail-copy detail-block">
+                An object study exploring the transformation from flat geometry to volumetric form.<br>
+                The initial shapes were extracted and reconstructed in Blender using extrusion and rotational modelling processes.<br><br>
+
+                The digital model was then materialised through 3D printing and reproduced in ceramic using a plaster casting process.<br>
+                The project investigates how machine-generated forms can be translated into handcrafted material outcomes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel panel--media">
+      <div class="media-block">
+        <div class="media-gallery is-active" data-media-gallery="bercy">
+          <img class="media-image" src="photos/bercy00-00.jpg" alt="Surface experiments"><br><br>
+          <img class="media-image" src="photos/bercy04.jpg" alt="Surface experiments"><br><br>
+          <img class="media-image" src="photos/bercy05.jpg" alt="Surface experiments"><br><br>
+          <img class="media-image" src="photos/bercy06.jpg" alt="Surface experiments"><br><br>
+          <img class="media-image" src="photos/bercy00-01.png" alt="Surface experiments"><br><br>
+          <img class="media-image" src="photos/bercy00-04.png" alt="Surface experiments"><br><br>
+        </div>
+
+        <div class="media-gallery" data-media-gallery="ceramic">
+          <img class="media-image" src="photos/00.jpg" alt="From 3d to ceramic"><br><br>
+          <img class="media-image" src="photos/03.jpg" alt="From 3d to ceramic"><br><br>
+          <img class="media-image" src="photos/04.jpg" alt="From 3d to ceramic"><br><br>
+          <img class="media-image" src="photos/06.jpg" alt="From 3d to ceramic"><br><br>
+          <img class="media-image" src="photos/05.jpg" alt="From 3d to ceramic">
+        </div>
+      </div>
+      <button class="detail-back-button" type="button" aria-label="Back" onclick="if (window.history.length > 1) { window.history.back(); } else { window.location.href = 'main.html'; }"><img src="back-button.png" alt=""></button>
+    </section>
+  </main>
+  <script src="material-accordion.js"></script>
+</body>
+</html>
